@@ -2,6 +2,14 @@
 # Functions to interface with the Binance
 # cryptocurrency market.
 #
+# Parameters are supplied as dotted pairs:
+#
+# H - HTTP headers
+# G - GET parameters
+# P - POST parameters
+#
+# Depends on picolisp-https library found here: https://github.com/aw/picolisp-https
+#
 # todo: keep track of endpoint weights
 
 
